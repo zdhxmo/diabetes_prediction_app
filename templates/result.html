@@ -1,0 +1,8 @@
+{% extends "index.html" %}
+  {% block content %}
+        {% if prediction == 0 %}
+            <h4>Congrats, you're in the clear. Eat all the sugar you want. for now.....</h4>
+        {% elif prediction == 1 %}
+            <h4> There is a probability you have diabetes. Please consult your doctor and conduct further tests</h4>
+        {% endif %}
+{% endblock content %}

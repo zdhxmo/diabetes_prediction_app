@@ -1,0 +1,10 @@
+jupyter
+notebook
+numpy
+pandas
+seaborn
+matplotlib
+sklearn
+scipy
+flask
+joblib
